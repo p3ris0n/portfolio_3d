@@ -17,7 +17,7 @@ const material = new THREE.MeshBasicMaterial({color: '#468585', emissive: '#4685
 const dodecahedron = new THREE.Mesh(geometry, material);
 
 const boxGeometry = new THREE.BoxGeometry(2, 0.1, 2);
-const boxMaterial = new THREE.MeshBasicMaterial({color: '#b4b4b3'});
+const boxMaterial = new THREE.MeshBasicMaterial({color: '#b4b4b3', emssive: '#b4b4b3' }); // light gray color.
 const box = new THREE.Mesh(boxGeometry, boxMaterial);
 box.position.y = -1.5;
 
